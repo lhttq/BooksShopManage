@@ -1,0 +1,24 @@
+{
+  "name" : "BsBookclass",
+  "comment" : null,
+  "fullColumn" : [ {
+    "name" : "bsBookclassid",
+    "comment" : null,
+    "type" : null,
+    "shortType" : null,
+    "custom" : false,
+    "ext" : { }
+  }, {
+    "name" : "bsBookclassname",
+    "comment" : null,
+    "type" : null,
+    "shortType" : null,
+    "custom" : false,
+    "ext" : { }
+  } ],
+  "pkColumn" : null,
+  "otherColumn" : null,
+  "savePackageName" : "cn.lht",
+  "savePath" : "./src/main/java/cn/lht",
+  "saveModelName" : "BooksShopManage"
+}
