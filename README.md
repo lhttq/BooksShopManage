@@ -18,3 +18,7 @@
 2. HTML、CSS、JavaScript
     - jQuery
     - layui
+* * * * *
+    2020.6.1
+    修复部分bug
+    
