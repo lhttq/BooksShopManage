@@ -66,7 +66,7 @@ table {
 	font-family: Verdana;
 	font-size: 100%;
 	 'Raleway'
-	, sans-serif;	background: url(../img/wall.jpg) no-repeat 0px 0px;
+	, sans-serif;	background: url(../img/wall.png) no-repeat 0px 0px;
 	background-size: cover;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -97,7 +97,7 @@ body a:hover,body a {
 }
 
 .agileits_copyright p a {
-	color: #FAC718;
+	color: #EA80FC;
 	text-decoration: none;
 }
 
@@ -127,7 +127,7 @@ input[type="submit"],.agileits_copyright p a,.form-module .cta a {
 	background: #ffffff;
 	max-width: 400px;
 	width: 100%;
-	border-top: 5px solid #FAC718;
+	border-top: 5px solid #EA80FC;
 	box-shadow: 0 0 3px rgba(0, 0, 0, 0.25);
 	margin: 0 auto;
 }
@@ -141,7 +141,7 @@ input[type="submit"],.agileits_copyright p a,.form-module .cta a {
 	position: absolute;
 	top: -0;
 	right: -0;
-	background: #FAC718;
+	background: #EA80FC;
 	width: 30px;
 	height: 30px;
 	margin: -5px 0 0;
@@ -215,7 +215,7 @@ input[type="submit"],.agileits_copyright p a,.form-module .cta a {
 }
 
 .form-module input[type="submit"] {
-	background: #84C639;
+	background: #55d1f5;
 	width: 100%;
 	border: 0;
 	padding: 10px 15px;
@@ -229,11 +229,11 @@ input[type="submit"],.agileits_copyright p a,.form-module .cta a {
 }
 
 .form-module input[type="submit"]:hover {
-	background: #FAC718;
+	background: #EA80FC;
 }
 
 .form-module .cta {
-	background: #FAC718;
+	background: #EA80FC;
 	width: 100%;
 	padding: 15px 40px;
 	box-sizing: border-box;

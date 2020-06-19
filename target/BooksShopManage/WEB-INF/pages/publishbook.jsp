@@ -39,25 +39,9 @@
                     "                <td>"+url+"</td>\n" +
                     "                <td>"+num+"</td>\n" +
                     "                <td>"+bsProvince+"</td>\n" +
-                    "                <td><a class=\"layui-btn layui-btn-danger layui-btn-xs\">获取购买者联系方式</a>" +
+                    "                <td><a class=\"layui-btn layui-btn-danger layui-btn-xs\">获取借书人联系方式</a>" +
                     "            </tr>");
                 tbody.append($tr);
-                }else{
-                  var $tr = $("<tr>\n" +
-                    "                <td>\n" +
-                    "                    <span class = \"image\"><img src="+url+" alt=\"\"></span>\n" +
-                    "                    <span>\n" +
-                    "                        <h6 class = \"bookName\">"+bookname+"</h6>\n" +
-                    "                        <span class=\"press\">"+press+"</span>\n" +
-                    "                    </span>\n" +
-                    "                </td>\n" +
-                    "                <td>￥ "+price+"</td>\n" +
-                    "                <td>"+url+"</td>\n" +
-                    "                <td>"+num+"</td>\n" +
-                    "                <td>"+bsProvince+"</td>\n" +
-                    "                <td>已出售或已删除</td>\n" +
-                    "            </tr>");
-                  tbody.append($tr);
                 }
             </c:forEach>
             $("#tbody").on('click','.layui-btn.layui-btn-danger.layui-btn-xs',function () {
@@ -92,10 +76,8 @@
         <div class="layui-logo">后台管理</div>
         <ul class="layui-nav layui-layout-left">
           <li class="layui-nav-item"><a href="../bsBooks/selectAll">书籍管理</a></li>
-            <li class="layui-nav-item"><a href="../bsPublishbooks/selectAll">卖书管理</a></li>
             <li class="layui-nav-item"><a href="../bsBookclass/selectAll">书籍类别管理</a></li>
             <li class="layui-nav-item"><a href="../bsPress/selectAll">出版社管理</a></li>
-            <li class="layui-nav-item"><a href="">用户管理</a></li>
         </ul>
     </div>
     <div class="layui-body">

@@ -135,26 +135,12 @@
 	<div class="w3_login">
 		<div class="w3_login_module">
 			<div class="module form-module">
-				<div class="toggle">
-					<i class="fa fa-times"></i>
-					<div class="tooltip">点击切换</div>
-				</div>
 				<div class="form" style="display: block;" class="layui-form" lay-filter="login">
 					<h2>登录账号</h2>
 					<form action="" method="post">
 						<input type="text" name="username" placeholder="用户名">
 						<input type="password" name="password" placeholder="密码">
 						<input type="submit" id="submit" lay-filter="*" value="登录">
-					</form>
-				</div>
-				<div class="form" style="display: none;">
-					<h2>创建一个账号</h2>
-					<form action="" method="post" class="layui-form" lay-filter="login">
-						<input type="text" name="loginname" placeholder="账号">
-						<input type="password" name="lpassword" placeholder="密码">
-						<input type="password" name="lnewpassword" placeholder="再次输入">
-						<input type="text" name="num" placeholder="职工编号">
-						<input type="submit" id="submit1" value="注册">
 					</form>
 				</div>
 				<div class="cta"><a href="">忘记密码?</a></div>

@@ -236,10 +236,8 @@
         <div class="layui-logo">后台管理</div>
         <ul class="layui-nav layui-layout-left">
             <li class="layui-nav-item"><a href="../bsBooks/selectAll">书籍管理</a></li>
-            <li class="layui-nav-item"><a href="../bsPublishbooks/selectAll">卖书管理</a></li>
             <li class="layui-nav-item"><a href="../bsBookclass/selectAll">书籍类别管理</a></li>
             <li class="layui-nav-item"><a href="../bsPress/selectAll">出版社管理</a></li>
-            <li class="layui-nav-item"><a href="../bsUsers/selectAll">用户管理</a></li>
         </ul>
     </div>
     <div class="layui-body">
